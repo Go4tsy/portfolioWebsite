@@ -1,5 +1,4 @@
 # Portfolio Introduction
-https://go4tsy.github.io/portfolioWebsite/index.html
 I wanted to design an online portfolio that would be professional and representative of myself. Portfolio design is something that piques my interest,it gives the creator or the client a unique platform to present their work and services to a wide audience. As a user viewing my portfolio page, I want to see who this person is, i want to know their identity, their interestsm their plans and their story. A quick introduction of themselves with a picture of them. I want an app that is simple to understand and easy to navigate through. I want quick acess to sections that interets me without having any problems regarding texts over text or animation affecting my time. I want the developper to value my time as a user. I expect a nice design showing the color of the brand and some fun interactions proving the skills of the developper. 
 # Download Portfolio
 1. Fork and clone this repository.
@@ -38,3 +37,5 @@ Thank you :goat: for checking out my Portfolio Project. I'm a Canadian Software 
 ## after 
 ![alt preview](portfolioMouse-nav.png) 
 ![alt preview footer](portolio+footer+alert.png)
+
+Website : https://go4tsy.github.io/portfolioWebsite/index.html
