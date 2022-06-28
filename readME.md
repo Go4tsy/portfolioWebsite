@@ -32,6 +32,7 @@ I wanted to design an online portfolio that would be professional and representa
 Thank you :goat: for checking out my Portfolio Project. I'm a Canadian Software Engineering student at General Assembly and a future freelancer. I like helping others by sharing ideas and new creations. I’m always looking forward to working with new people and learning more skills. If you would like to work with me, hire me or guide me, please feel free to contact me on Linkedin at https://www.linkedin.com/in/sean-moses-etienne-b5356823a/ . Best regards! :goat:
 #  Wireframes
 ## before 
+![wireframe](https://user-images.githubusercontent.com/106879336/176196791-21c3d16d-00eb-4caa-9a5f-7bc7525ce680.png)
 
 ## after 
 ![alt preview](portfolioMouse-nav.png) 
