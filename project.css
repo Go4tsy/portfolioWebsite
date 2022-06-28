@@ -1,0 +1,892 @@
+@media screen and (min-width:1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: lemon;
+    }
+     head {
+         display: none;
+     }
+    html {
+        font-size: 20px;
+    }
+    body {
+        width: 100vw;
+        position: relative;
+        max-width: 100%;
+        
+    }
+    .ProjectNavigation-section{
+        display: block;
+        position: relative;
+        grid-area: header;
+        height: 200px;
+    }
+    .Projectbackimo {
+        background-image: url(/images/bluematrix.png);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        position: relative;
+        background-size: 500px;
+    }
+    #Projectheadpic{
+        width: 30%;
+        height: auto;
+        opacity: 0;
+     }
+    #Projectname {
+        position: absolute;
+        font-style: italic;
+        font-family: Lemon, sans-serif;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        width: 100%;
+    }
+
+    .ProjectAll-navs{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 23px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .Projectnavs {
+        display: inline;
+        position: relative;
+        padding: 0px 30px 0px 30px;
+        justify-content: center;
+        font-family: lemon;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    #Projectslogan{
+        position: absolute;
+        text-align: justify;
+        display: inline;
+        top: 30%;
+        left: 30%;
+        font-size: 30px;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Gloria Hallelujah', cursive !important;
+    }
+    
+    #ProjectFocus {
+        margin-top: 10px;
+        margin-left: 300px;
+        font-size: 70px;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 20em;
+        animation: move-text;
+        animation-duration: 10s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move-text {
+       from {width: 0;}
+        
+    }
+    main{
+        display: flex;
+        background-image: linear-gradient(#051d72, white);
+        justify-content: space-between;
+        align-content: center;
+        font-family: 'Aladin', cursive; ;
+    }
+    
+    p{
+        font-size: 35px;
+    }
+    
+   
+    footer{
+        grid-area: footer;
+        display: inline-flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        position: relative;
+        background-image: linear-gradient(white, #051d72);
+    }
+    .Projectcopyright{
+        bottom: 0;
+        position: absolute;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    }
+    .ProjectSML-container{
+        width: 100vw;
+        text-align: center;
+    }
+    .ProjectSML-container img {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    /* s/o css-tricks animation */
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+          }
+          
+          20%, 80% {
+            transform: translate3d(2px, 0, 0);
+          }
+        
+          30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+          }
+        
+          40%, 60% {
+            transform: translate3d(4px, 0, 0);
+          }
+    }
+    #Projectfooter-linkedin-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+        
+    }
+    #Projectfooter-github-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Projectfooter-instagram-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Projectfooter-twitter-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+    }
+    .Projectsignature {
+        font-size: 35px;
+        text-align: center;
+        width: 100vw;
+        margin: 10px;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    } 
+    .Projectfooter-link {
+        animation: shake 2s ease-in; 
+        animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% {
+            transform: translate(0);
+        }
+    
+    20%,
+    40%,
+    60%,
+    80%{
+        transform:translate(.8em);
+        box-shadow: 0px 6px 20px black;
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-2.em);
+    }
+     70%,
+     100%{
+        transform: translate(0);
+     }  
+        
+    }
+    }
+    
+    
+        
+    /* media queries */
+
+@media screen and (max-width:600px) {
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: lemon;
+   }
+     head {
+        display: none;
+    }
+    html {
+    font-size: 20px;
+ }
+ body {
+    width: 100vw;
+    position: relative;
+    max-width: 100%;
+ }
+ .ProjectNavigation-section{
+    display: block;
+    position: relative;
+    grid-area: header;
+    height: 200px;
+ }
+ .Projectbackimo {
+    background-image: url(/images/bluematrix.png);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-position: center;
+    position: relative;
+    background-size: 500px;
+ }
+ #Projectheadpic{
+    width: 30%;
+    height: auto;
+    opacity: 0;
+ }
+ #Projectname {
+    position: absolute;
+    font-style: italic;
+    font-family: Lemon, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 3px 3px #4069fd;
+    font-size: 100%;
+ }
+ .ProjectAll-navs{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 23px;
+    height: auto;
+ }
+ a {
+    text-decoration: none;
+ }
+ .Projectnavs {
+    display: inline;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    font-family: lemon;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 3px 3px #4069fd;
+ }
+ #Projectslogan{
+    position: absolute;
+    text-align: justify;
+    top: 20%;
+    left: 30%;
+    font-size: 2vw;
+    color: white;
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 3px 3px #4069fd;
+    font-family: 'Gloria Hallelujah', cursive !important;
+    max-width: 100vw;
+ }
+ #ProjectFocus {
+    margin-left: 35%;
+    font-size: 30px;
+     overflow: hidden;
+     white-space: nowrap;
+     max-width: 100vw;
+     animation: move-text;
+     animation-duration: 10s;
+     animation-delay: 3s;
+     animation-iteration-count: infinite;
+ } 
+ @keyframes move-text {
+    from {width: 0;}
+     
+ }
+ main{
+    display: block;
+    background-image: linear-gradient(#051d72, white);
+   
+    align-content: center;
+    
+    font-family: 'Aladin', cursive;
+    margin-top: 0;
+ }
+ 
+ 
+ }
+ p{
+    font-size: 35px;
+    text-align: justify;
+ }
+ 
+ footer{
+    grid-area: footer;
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    background-image: linear-gradient(white, #051d72);
+ }
+ .Projectcopyright{
+    bottom: 0; 
+    color: white;
+    -webkit-text-stroke: 1px #051d72;
+    text-shadow: 3px 3px #4069fd;
+    font-size: 60%;
+    margin-top: 0;
+ }
+ .ProjectSML-container{
+    width: 100vw;
+    text-align: center;
+ }
+ .ProjectSML-container img {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+ }
+ @keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+ }
+ #Projectfooter-linkedin-logo {
+    display: inline-block;
+    animation-name: shake;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    
+    
+ }
+ #Projectfooter-github-logo {
+    display: inline-block;
+    animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+     
+    
+ }
+ #Projectfooter-instagram-logo {
+    display: inline-block;
+    animation-name: shake;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    
+    
+ }
+ #Projectfooter-twitter-logo {
+    display: inline-block;
+    animation-name: shake;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    
+ }
+ .signature {
+    font-size: 35px;
+    text-align: center;
+    width: 100vw;
+    margin: 10px;
+    color: white;
+    -webkit-text-stroke: 1px #051d72;
+    text-shadow: 3px 3px #4069fd;
+ }
+ 
+ 
+ @media screen and (min-width:601px) and (max-width:991px){
+       
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: lemon;
+    }
+      head {
+         display: none;
+     }
+     html {
+     font-size: 20px;
+  }
+  body {
+     position: relative;
+     width: 100%;
+     max-width: 100%;
+  }
+  .ProjectNavigation-section{
+     display: block;
+     position: relative;
+     grid-area: header;
+     height: auto;
+     
+  }
+  .Projectbackimo {
+     background-image: url(/images/bluematrix.png);
+     width: 100%;
+     height: 150px;
+     display: flex;
+     background-position: center;
+     position: relative;
+     background-size: 500px;
+  }
+  #Projectheadpic{
+     width: 30%;
+     height: auto;
+     opacity: 0;
+  }
+  #Projectname {
+     position: absolute;
+     font-style: italic;
+     font-family: Lemon, sans-serif;
+     color: white;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 3px 3px #4069fd;
+     font-size: 100%;
+     width: 100%;
+  }
+  .ProjectAll-navs{
+     position: absolute;
+     top: 0;
+     right: 0;
+     font-size: 23px;
+  }
+  a {
+     text-decoration: none;
+  }
+  .Projectnavs {
+     display: inline;
+     position: relative;
+     padding: 0px 20px 0px 20px;
+     justify-content: center;
+     font-family: lemon;
+     font-style: italic;
+     font-weight: bold;
+     color: white;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 3px 3px #4069fd;
+  }
+  
+  #Projectslogan{
+     position: absolute;
+     text-align: justify;
+     top: 20%;
+     left: 30%;
+     font-size: 2vw;
+     color: white;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 3px 3px #4069fd;
+     font-family: 'Gloria Hallelujah', cursive !important;
+     max-width: 100vw;
+     
+  }
+  
+  }
+  #ProjectFocus {
+     margin-left: 35%;
+     font-size: 30px;
+      overflow: hidden;
+      white-space: nowrap;
+      max-width: 100vw;
+      width: 50vw;
+      animation: move-text;
+      animation-duration: 10s;
+      animation-delay: 3s;
+      animation-iteration-count: infinite;
+  } 
+  @keyframes move-text {
+     from {width: 0;}
+      
+  }
+  main{
+     display: flex;
+     background-image: linear-gradient(#051d72, white);
+     justify-content: space-between;
+     align-content: center;
+     font-family: 'Aladin', cursive; ;
+     height: auto;
+     width: 100%;
+     margin-top: 0;
+ }
+ 
+  footer{
+     grid-area: footer;
+     display: inline-flex;
+     flex-wrap: wrap;
+     max-width: 100%;
+     position: relative;
+     background-image: linear-gradient(white, #051d72);
+  }
+  .Projectcopyright{
+     bottom: 0; 
+     color: white;
+     -webkit-text-stroke: 1px #051d72;
+     text-shadow: 3px 3px #4069fd;
+     font-size: 60%;
+     margin-top: 0;
+  }
+  .ProjectSML-container{
+     width: 100vw;
+     text-align: center;
+  }
+  .ProjectSML-container img {
+     display: inline-flex;
+     flex-wrap: nowrap;
+     width: 100px;
+     height: 100px;
+     margin: 20px;
+  }
+  @keyframes shake {
+     10%, 90% {
+         transform: translate3d(-1px, 0, 0);
+       }
+       
+       20%, 80% {
+         transform: translate3d(2px, 0, 0);
+       }
+     
+       30%, 50%, 70% {
+         transform: translate3d(-4px, 0, 0);
+       }
+     
+       40%, 60% {
+         transform: translate3d(4px, 0, 0);
+       }
+  }
+  #Projectfooter-linkedin-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+     
+  }
+  #Projectfooter-github-logo {
+     display: inline-block;
+     animation-name: shake;
+      animation-duration: 3s;
+      animation-delay: 5s;
+      animation-iteration-count: infinite;
+     
+  }
+  #Projectfooter-instagram-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+     
+  }
+  #Projectfooter-twitter-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+  .Projectsignature {
+     font-size: 35px;
+     text-align: center;
+     width: 100vw;
+     margin: 10px;
+     color: white;
+     -webkit-text-stroke: 1px #051d72;
+     text-shadow: 3px 3px #4069fd;
+  }
+  .Projectfooter-link {
+     animation: shake 2s ease-in; 
+     animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+     0% {
+         transform: translate(0);
+     }
+  
+  20%,
+  40%,
+  60%,
+  80%{
+     transform:translate(.8em);
+     box-shadow: 0px 6px 20px black;
+  }
+  10%,
+  30%,
+  50%{
+     transform: translate(-2.em);
+  }
+  70%,
+  100%{
+     transform: translate(0);
+  }  
+     
+  }
+  
+   @media screen and (min-width:992px) and (max-width:1199px) {
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+  head {
+      display: none;
+  }
+  html {
+     font-size: 20px;
+  }
+  body {
+     width: 100vw;
+     position: relative;
+     max-width: 100%;
+     
+  }
+  .ProjectNavigation-section{
+     display: block;
+     position: relative;
+     grid-area: header;
+     height: 200px;
+  }
+  .Projectbackimo {
+     background-image: url(/images/bluematrix.png);
+     width: 100%;
+     height: 100%;
+     display: flex;
+     background-position: center;
+     position: relative;
+     background-size: 500px;
+  }
+  #Projectname {
+     position: absolute;
+     font-style: italic;
+     font-family: Lemon, sans-serif;
+     color: white;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 3px 3px #4069fd;
+     width: 100%;
+  }
+  #Projectheadpic {
+     opacity: 0;
+  }
+  .ProjectAll-navs{
+     position: absolute;
+     top: 0;
+     right: 30px;
+     font-size: 1cm;
+     justify-content: center;
+  }
+  a {
+     text-decoration: none;
+  }
+  .Projectnavs {
+     display: inline;
+     position: relative;
+     padding: 0px 30px 0px 30px;
+     justify-content: center;
+     font-family: lemon;
+     font-style: italic;
+     font-weight: bold;
+     color: white;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 3px 3px #4069fd;
+  }
+  #Projectslogan{
+     position: absolute;
+     text-align: justify;
+     display: inline;
+     top: 25%;
+     left: 40%;
+     font-size: 100%;
+     color: white;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 3px 3px #4069fd;
+     font-family: 'Gloria Hallelujah', cursive !important;
+  }
+  
+  #ProjectFocus {
+     margin-left: 35%;
+     font-size: 30px;
+      overflow: hidden;
+      white-space: nowrap;
+      max-width: 100vw;
+      width: 50vw;
+      animation: move-text;
+      animation-duration: 10s;
+      animation-delay: 3s;
+      animation-iteration-count: infinite;
+  } 
+  @keyframes move-text {
+    from {width: 0;}
+     
+  }
+  main{
+     display: flex;
+     background-image: linear-gradient(#051d72, white);
+     justify-content: space-between;
+     align-content: center;
+     grid-gap: 5vw;
+     font-family: 'Aladin', cursive; ;
+     margin-top: 0;
+  }
+  .brand {
+     grid-area: main; 
+     justify-content: center;
+     text-align: match-parent;
+     margin: 10px;
+     width: 100vw;
+  }
+  #logobrand {
+     width: 350px;
+     height: 350px;
+     position: absolute;
+  }
+  p{
+     font-size: 35px;
+  }
+  
+  footer{
+     grid-area: footer;
+     display: inline-flex;
+     flex-wrap: wrap;
+     max-width: 100%;
+     position: relative;
+     background-image: linear-gradient(white, #051d72);
+  }
+  .Projectcopyright{
+     bottom: 0;
+     position: absolute;
+     color: white;
+     -webkit-text-stroke: 1px #051d72;
+     text-shadow: 3px 3px #4069fd;
+  }
+  .ProjectSML-container{
+     width: 100vw;
+     text-align: center;
+  }
+  .ProjectSML-container img {
+     display: inline-flex;
+     flex-wrap: nowrap;
+     width: 100px;
+     height: 100px;
+     margin: 20px;
+  }
+  @keyframes shake {
+     10%, 90% {
+         transform: translate3d(-1px, 0, 0);
+       }
+       
+       20%, 80% {
+         transform: translate3d(2px, 0, 0);
+       }
+     
+       30%, 50%, 70% {
+         transform: translate3d(-4px, 0, 0);
+       }
+     
+       40%, 60% {
+         transform: translate3d(4px, 0, 0);
+       }
+  }
+  #Projectfooter-linkedin-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+     
+     
+  }
+  #footer-github-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+     
+  }
+  #Projectfooter-instagram-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+     
+  }
+  #Projectfooter-twitter-logo {
+     display: inline-block;
+     animation-name: shake;
+     animation-duration: 3s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+  .Projectsignature {
+     font-size: 35px;
+     text-align: center;
+     width: 100vw;
+     margin: 10px;
+     color: white;
+     -webkit-text-stroke: 1px #051d72;
+     text-shadow: 3px 3px #4069fd;
+  } 
+  .Projectfooter-link {
+     animation: shake 2s ease-in; 
+     animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+     0% {
+         transform: translate(0);
+     }
+  
+  20%,
+  40%,
+  60%,
+  80%{
+     transform:translate(.8em);
+     box-shadow: 0px 6px 20px black;
+  }
+  10%,
+  30%,
+  50%{
+     transform: translate(-2.em);
+  }
+  70%,
+  100%{
+     transform: translate(0);
+  }  
+     
+  }
+ } 

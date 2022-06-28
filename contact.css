@@ -1,0 +1,1066 @@
+@media screen and (min-width:1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: lemon;
+    }
+     head {
+         display: none;
+     }
+    html {
+        font-size: 20px;
+    }
+    audio cont {
+        padding: 3px black solid;
+        font-size: 10px;
+        color: black !important;
+    }
+    body {
+        width: 100vw;
+        position: relative;
+        max-width: 100%;
+        
+    }
+    .ContactNavigation-section{
+        display: block;
+        position: relative;
+        grid-area: header;
+    }
+    .Contactbackimo {
+        background-image: url(/images/bluematrix.png);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        position: relative;
+        background-size: 500px;
+    }
+    #Contactname {
+        position: absolute;
+        font-style: italic;
+        font-family: Lemon, sans-serif;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        width: 100%;
+    }
+    #Contactheadpic {
+        opacity: 1;
+    }
+    .ContactAll-navs{
+        position: absolute;
+        top: 0;
+        right: 50px;
+        font-size: 40px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .navs {
+        display: inline;
+        position: relative;
+        padding: 0px 40px 0px 40px;
+        justify-content: center;
+        font-family: lemon;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    #Contactslogan{
+        position: absolute;
+        text-align: justify;
+        display: inline;
+        top: 30%;
+        left: 30%;
+        font-size: 30px;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Gloria Hallelujah', cursive !important;
+    }
+  
+    #ContactFocus {
+        margin-top: 10px;
+        margin-left: 200px;
+        font-size: 70px;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 20em;
+        animation: move-text;
+        animation-duration: 10s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        max-width: 300px;
+    }
+    @keyframes move-text {
+       from {width: 0;}
+        
+    }
+    button, #Stop{
+        color:black !important;
+        font-size: 30px;
+    }
+    main{
+        display: block;
+        background-image: linear-gradient(#051d72, white);
+        text-align: center;
+        font-family: 'Aladin', cursive; ;
+    }
+    legend {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+        font-size: 70px;
+    }
+    form {
+            font-size: 40px;
+        
+    }
+    label {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+    }
+    input {
+        font-size: 30px;
+    }
+ 
+    #Contactlogobrand {
+        width: 350px;
+        height: 350px;
+    }
+  
+    button, #formbtn {
+        text-align: center;
+        width: auto;
+        font-size: 50px;
+        height: auto;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    
+    img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    footer{
+        grid-area: footer;
+        display: inline-flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        position: relative;
+        background-image: linear-gradient(white, #051d72);
+    }
+    .Contactcopyright{
+        bottom: 0;
+        position: absolute;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    }
+    .ContactSML-container{
+        width: 100vw;
+        text-align: center;
+    }
+    .ContactSML-container img {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    /* s/o css-tricks animation */
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+          }
+          
+          20%, 80% {
+            transform: translate3d(2px, 0, 0);
+          }
+        
+          30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+          }
+        
+          40%, 60% {
+            transform: translate3d(4px, 0, 0);
+          }
+    }
+    #Contactfooter-linkedin-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-github-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-instagram-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-twitter-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+    }
+    .Contactsignature {
+        font-size: 35px;
+        text-align: center;
+        width: 100vw;
+        margin: 10px;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    } 
+    .Contactfooter-link {
+        animation: shake 2s ease-in; 
+        animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% {
+            transform: translate(0);
+        }
+    
+    20%,
+    40%,
+    60%,
+    80%{
+        transform:translate(.8em);
+        box-shadow: 0px 6px 20px black;
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-2.em);
+    }
+     70%,
+     100%{
+        transform: translate(0);
+     }  
+        
+    }
+    }
+    
+    /* media queries */
+
+@media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: lemon;
+    }
+     head {
+         display: none;
+     }
+    html {
+        font-size: 20px;
+    }
+    audio cont {
+        padding: 3px black solid;
+        font-size: 10px;
+        color: black !important;
+    }
+    body {
+        width: 100vw;
+        position: relative;
+        max-width: 100%;
+        
+    }
+    .ContactNavigation-section{
+        display: block;
+        position: relative;
+        grid-area: header;
+    }
+    .Contactbackimo {
+        background-image: url(/images/bluematrix.png);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        position: relative;
+        background-size: 500px;
+    }
+    #Contactname {
+        position: absolute;
+        font-style: italic;
+        font-family: Lemon, sans-serif;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        width: 100%;
+        font-size: 100%;
+    }
+    #Contactheadpic {
+        opacity: 1;
+        width: 30%;
+        height: auto;
+    }
+    .ContactAll-navs{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+    .navs {
+        display: inline;
+        position: relative;
+        padding: 0px 20px 0px 20px;
+        justify-content: center;
+        font-family: lemon;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    #Contactslogan{
+        position: absolute;
+        text-align: justify;
+        display: inline;
+        top: 30%;
+        left: 32%;
+        font-size: 15px;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Gloria Hallelujah', cursive !important;
+        width: 100%;
+        max-width: 400px;
+    }
+  
+    #ContactFocus {
+        margin-top: 10px;
+        margin-left: 30%;
+        font-size: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 50%;
+        animation: move-text;
+        animation-duration: 10s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        max-width: 100%;
+    }
+    @keyframes move-text {
+       from {width: 0;}
+        
+    }
+    button, #Stop{
+        color:black !important;
+        font-size: 30px;
+    }
+    main{
+        display: block;
+        background-image: linear-gradient(#051d72, white);
+        text-align: center;
+        font-family: 'Aladin', cursive; ;
+    }
+    legend {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+        font-size: 70px;
+    }
+    form {
+            font-size: 40px;
+        
+    }
+    label {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+    }
+    input {
+        font-size: 30px;
+    }
+ 
+    #Contactlogobrand {
+        width: 350px;
+        height: 350px;
+    }
+  
+    button, #formbtn {
+        text-align: center;
+        width: auto;
+        font-size: 50px;
+        height: auto;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    
+    img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    footer{
+        grid-area: footer;
+        display: inline-flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        position: relative;
+        background-image: linear-gradient(white, #051d72);
+    }
+    .Contactcopyright{
+        bottom: 0;
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 1px #051d72;
+    text-shadow: 3px 3px #4069fd;
+    font-size: 50%;
+    }
+    .ContactSML-container{
+        width: 100vw;
+        text-align: center;
+    }
+    .ContactSML-container img {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    /* s/o css-tricks animation */
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+          }
+          
+          20%, 80% {
+            transform: translate3d(2px, 0, 0);
+          }
+        
+          30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+          }
+        
+          40%, 60% {
+            transform: translate3d(4px, 0, 0);
+          }
+    }
+    #Contactfooter-linkedin-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-github-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-instagram-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-twitter-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+    }
+    .Contactsignature {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        margin: 30px;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    } 
+    .Contactfooter-link {
+        animation: shake 2s ease-in; 
+        animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% {
+            transform: translate(0);
+        }
+    
+    20%,
+    40%,
+    60%,
+    80%{
+        transform:translate(.8em);
+        box-shadow: 0px 6px 20px black;
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-2.em);
+    }
+     70%,
+     100%{
+        transform: translate(0);
+     }  
+        
+    }
+
+} 
+@media screen and (min-width:601px) and (max-width:991px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: lemon;
+    }
+     head {
+         display: none;
+     }
+    html {
+        font-size: 20px;
+    }
+    audio cont {
+        padding: 3px black solid;
+        font-size: 10px;
+        color: black !important;
+    }
+    body {
+        width: 100vw;
+        position: relative;
+        max-width: 100%;
+        
+    }
+    .ContactNavigation-section{
+        display: block;
+        position: relative;
+        grid-area: header;
+    }
+    .Contactbackimo {
+        background-image: url(/images/bluematrix.png);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        position: relative;
+        background-size: 500px;
+    }
+    #Contactname {
+        position: absolute;
+        font-style: italic;
+        font-family: Lemon, sans-serif;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        width: 100%;
+        font-size: 100%;
+    }
+    #Contactheadpic {
+        opacity: 1;
+        width: 30%;
+        height: auto;
+    }
+    .ContactAll-navs{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+    .navs {
+        display: inline;
+        position: relative;
+        padding: 0px 20px 0px 20px;
+        justify-content: center;
+        font-family: lemon;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    #Contactslogan{
+        position: absolute;
+        text-align: justify;
+        display: inline;
+        top: 30%;
+        left: 32%;
+        font-size: 15px;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Gloria Hallelujah', cursive !important;
+        width: 100%;
+        max-width: 400px;
+    }
+  
+    #ContactFocus {
+        margin-top: 10px;
+        margin-left: 30%;
+        font-size: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 50%;
+        animation: move-text;
+        animation-duration: 10s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        max-width: 100%;
+    }
+    @keyframes move-text {
+       from {width: 0;}
+        
+    }
+    button, #Stop{
+        color:black !important;
+        font-size: 30px;
+    }
+    main{
+        display: block;
+        background-image: linear-gradient(#051d72, white);
+        text-align: center;
+        font-family: 'Aladin', cursive; ;
+    }
+    legend {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+        font-size: 70px;
+    }
+    form {
+            font-size: 40px;
+        
+    }
+    label {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+    }
+    input {
+        font-size: 30px;
+    }
+ 
+    #Contactlogobrand {
+        width: 350px;
+        height: 350px;
+    }
+  
+    button, #formbtn {
+        text-align: center;
+        width: auto;
+        font-size: 50px;
+        height: auto;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    
+    img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    footer{
+        grid-area: footer;
+        display: inline-flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        position: relative;
+        background-image: linear-gradient(white, #051d72);
+    }
+    .Contactcopyright{
+        bottom: 0;
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 1px #051d72;
+    text-shadow: 3px 3px #4069fd;
+    font-size: 70%;
+    }
+    .ContactSML-container{
+        width: 100vw;
+        text-align: center;
+    }
+    .ContactSML-container img {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    /* s/o css-tricks animation */
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+          }
+          
+          20%, 80% {
+            transform: translate3d(2px, 0, 0);
+          }
+        
+          30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+          }
+        
+          40%, 60% {
+            transform: translate3d(4px, 0, 0);
+          }
+    }
+    #Contactfooter-linkedin-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-github-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-instagram-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-twitter-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+    }
+    .Contactsignature {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        margin: 30px;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    } 
+    .Contactfooter-link {
+        animation: shake 2s ease-in; 
+        animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% {
+            transform: translate(0);
+        }
+    
+    20%,
+    40%,
+    60%,
+    80%{
+        transform:translate(.8em);
+        box-shadow: 0px 6px 20px black;
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-2.em);
+    }
+     70%,
+     100%{
+        transform: translate(0);
+     }  
+        
+    }
+}
+ @media screen and (min-width:992px) and (max-width:1199px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: lemon;
+    }
+     head {
+         display: none;
+     }
+    html {
+        font-size: 20px;
+    }
+    audio cont {
+        padding: 3px black solid;
+        font-size: 10px;
+        color: black !important;
+    }
+    body {
+        width: 100vw;
+        position: relative;
+        max-width: 100%;
+        
+    }
+    .ContactNavigation-section{
+        display: block;
+        position: relative;
+        grid-area: header;
+    }
+    .Contactbackimo {
+        background-image: url(/images/bluematrix.png);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        position: relative;
+        background-size: 500px;
+    }
+    #Contactname {
+        position: absolute;
+        font-style: italic;
+        font-family: Lemon, sans-serif;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        width: 100%;
+        font-size: 100%;
+    }
+    #Contactheadpic {
+        opacity: 1;
+        width: 30%;
+        height: auto;
+    }
+    .ContactAll-navs{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 30px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .navs {
+        display: inline;
+        position: relative;
+        padding: 0px 30px 0px 30px;
+        justify-content: center;
+        font-family: lemon;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    #Contactslogan{
+        position: absolute;
+        text-align: justify;
+        display: inline;
+        top: 30%;
+        left: 40%;
+        font-size: 20px;
+        color: white;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Gloria Hallelujah', cursive !important;
+        width: 100%;
+        max-width: 600px;
+    }
+  
+    #ContactFocus {
+        margin-top: 10px;
+        margin-left: 30%;
+        font-size: 40px;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 50%;
+        animation: move-text;
+        animation-duration: 10s;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        max-width: 400px;
+    }
+    @keyframes move-text {
+       from {width: 0;}
+        
+    }
+    button, #Stop{
+        color:black !important;
+        font-size: 30px;
+    }
+    main{
+        display: block;
+        background-image: linear-gradient(#051d72, white);
+        text-align: center;
+        font-family: 'Aladin', cursive; ;
+    }
+    legend {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+        font-size: 70px;
+    }
+    form {
+            font-size: 40px;
+        
+    }
+    label {
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+        font-family: 'Euphoria Script', cursive;
+    }
+    input {
+        font-size: 30px;
+    }
+ 
+    #Contactlogobrand {
+        width: 350px;
+        height: 350px;
+    }
+  
+    button, #formbtn {
+        text-align: center;
+        width: auto;
+        font-size: 50px;
+        height: auto;
+        -webkit-text-stroke: 1px #ffffff;
+        text-shadow: 3px 3px #4069fd;
+    }
+    
+    img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    footer{
+        grid-area: footer;
+        display: inline-flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        position: relative;
+        background-image: linear-gradient(white, #051d72);
+    }
+    .Contactcopyright{
+        bottom: 0;
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 1px #051d72;
+    text-shadow: 3px 3px #4069fd;
+    font-size: 70%;
+    }
+    .ContactSML-container{
+        width: 100vw;
+        text-align: center;
+    }
+    .ContactSML-container img {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    /* s/o css-tricks animation */
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+          }
+          
+          20%, 80% {
+            transform: translate3d(2px, 0, 0);
+          }
+        
+          30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+          }
+        
+          40%, 60% {
+            transform: translate3d(4px, 0, 0);
+          }
+    }
+    #Contactfooter-linkedin-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-github-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-instagram-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        
+    }
+    #Contactfooter-twitter-logo {
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 3s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+    }
+    .Contactsignature {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        margin: 30px;
+        color: white;
+        -webkit-text-stroke: 1px #051d72;
+        text-shadow: 3px 3px #4069fd;
+    } 
+    .Contactfooter-link {
+        animation: shake 2s ease-in; 
+        animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% {
+            transform: translate(0);
+        }
+    
+    20%,
+    40%,
+    60%,
+    80%{
+        transform:translate(.8em);
+        box-shadow: 0px 6px 20px black;
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-2.em);
+    }
+     70%,
+     100%{
+        transform: translate(0);
+     }  
+        
+    }
+} 
