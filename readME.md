@@ -1,11 +1,12 @@
 # H1 Portfolio Introduction
-## H2 I wanted to design an online portfolio that would be professional and representative of myself. Portfolio design is something that piques my interest,it gives the creator or the client a unique platform to present their work and services to a wide audience. As a user viewing my portfolio page, I want to see who this person is, i want to know their identity, their interestsm their plans and their story. A quick introduction of themselves with a picture of them. I want an app that is simple to understand and easy to navigate through. I want quick acess to sections that interets me without having any problems regarding texts over text or animation affecting my time. I want the developper to value my time as a user. I expect a nice design showing the color of the brand and some fun interactions proving the skills of the developper. 
+## H2 
+I wanted to design an online portfolio that would be professional and representative of myself. Portfolio design is something that piques my interest,it gives the creator or the client a unique platform to present their work and services to a wide audience. As a user viewing my portfolio page, I want to see who this person is, i want to know their identity, their interestsm their plans and their story. A quick introduction of themselves with a picture of them. I want an app that is simple to understand and easy to navigate through. I want quick acess to sections that interets me without having any problems regarding texts over text or animation affecting my time. I want the developper to value my time as a user. I expect a nice design showing the color of the brand and some fun interactions proving the skills of the developper. 
 # H1 Download Portfolio
 1. Fork and clone this repository.
 2. Change into the new directory.
 3. If you plan to make contributions, use git init to initialize your Git repository. Then create and checkout a new branch name response using command git checkout -b response.
 4. Install dependencies with npm install.
-# H1 Project Planning
+# h1 Project Planning
 1. MainPage with name and a photo:
 - My brand and my life codes
 - social menu to navigate to different pages
